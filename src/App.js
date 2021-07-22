@@ -6,6 +6,8 @@ import Resume from "./components/Resume";
 import Navbar from "./components/Navbar";
 import Portfolio from "./components/Portfolio";
 import Contact from "./components/Contact";
+import NewProject from "./components/NewProject";
+import Login from "./components/Login";
 
 import "./App.css";
 
@@ -19,6 +21,8 @@ function App() {
         <Route exact path="/resume" component={Resume} />
         <Route exact path="/portfolio" component={Portfolio} />
         <Route exact path="/contact" component={Contact} />
+        <Route exact path="/newproject" component={NewProject} />
+        <Route exact path="/login" component={Login} />
       </Switch>
     </React.Fragment>
   );
